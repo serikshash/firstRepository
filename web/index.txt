@@ -5,7 +5,7 @@
 	</head>
 
 	<body>
-		<div id="hello"></div>
+		<h1><div id="hello"></div></h1>
 		<script src="script.js"></script>
 	<body>
 </html>
