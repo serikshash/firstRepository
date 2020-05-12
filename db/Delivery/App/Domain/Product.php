@@ -5,8 +5,6 @@ private $contract;
 private $name;
 private $amount;
 private $price;
-
-
 public function __construct($contract, $name, $amount, $price)
 {
   if (empty($amount))  {

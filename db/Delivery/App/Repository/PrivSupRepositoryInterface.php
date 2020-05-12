@@ -1,5 +1,6 @@
 <?php
-interface PrivSupRepositoryInterface{
+interface PrivSupRepositoryInterface
+{
 public function getPrivSupList();
  public function getPrivSupByID($id);
  public function create($privSup);

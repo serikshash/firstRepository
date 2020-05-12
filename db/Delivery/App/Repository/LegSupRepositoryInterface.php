@@ -1,5 +1,6 @@
 <?php
-interface LegSupRepositoryInterface{
+interface LegSupRepositoryInterface
+{
 public function getLegSupList();
  public function getLegSupByID($id);
  public function create($legSup);

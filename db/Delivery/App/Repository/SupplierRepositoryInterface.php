@@ -1,5 +1,6 @@
 <?php
-interface SupplierRepositoryInterface{
+interface SupplierRepositoryInterface
+{
 	public function getSupplierList();
 	public function getSupplierByID($id);
 	public function getSupplierByName($name);
